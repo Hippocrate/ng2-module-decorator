@@ -1,0 +1,13 @@
+{
+  "name": "ng2-module-decorator",
+  "version": "1.0.0",
+  "description": "A decorator for Angular 2 projects.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.8"
+  },
+  "author": "Idriss Hippocrate <ihippocrate@gmail.com>",
+  "license": "ISC"
+}
