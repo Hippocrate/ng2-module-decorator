@@ -1,12 +1,19 @@
 {
   "name": "ng2-module-decorator",
   "version": "1.0.0",
-  "description": "A decorator for Angular 2 projects.",
+  "description": "Avoid the Angular 2 module declaration hell by providing a simple decorator.",
   "main": "index.js",
   "scripts": {
+    "test": "npm run compile & mocha test",
+    "tsc": "tsc",
+    "compile": "npm run tsc"
   },
   "dependencies": {
-    "reflect-metadata": "^0.1.8"
+    "reflect-metadata": "^0.1.8",
+    "mocha": "3.1.2",
+    "chai": "3.5.0",
+    "@types/mocha": "2.2.32",
+    "@types/chai": "3.4.34"
   },
   "author": "Idriss Hippocrate <ihippocrate@gmail.com>",
   "license": "ISC"
