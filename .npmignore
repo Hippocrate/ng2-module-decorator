@@ -1,4 +1,4 @@
 /node_modules
-*.ts
 *.map
-*!.d.ts
+index.ts
+test/*.ts
