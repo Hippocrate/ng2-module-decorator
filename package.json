@@ -1,6 +1,6 @@
 {
   "name": "ng2-module-decorator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Avoid the Angular 2 module declaration hell by providing a simple decorator.",
   "main": "index.js",
   "scripts": {
