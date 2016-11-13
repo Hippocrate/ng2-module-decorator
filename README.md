@@ -32,6 +32,7 @@ export class AppComponent implements OnInit {
 Then in your ```module.ts``` file : 
 
 ```Javascript
+import { declarations } from 'ng2-module-decorator';
 // import all the app components
 import './components';
 
@@ -39,7 +40,7 @@ import './components';
 import './pipes';
 
 // import all the app directives
-import './directives'
+import './directives';
 
 import { AppComponent } from './components';
 
